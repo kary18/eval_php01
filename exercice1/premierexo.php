@@ -1,49 +1,40 @@
 <?php
 require_once ("result.php");
 
-echo "\n";
-echo "Exercice 1 (True ou False):\n";
-$malettre  ="a";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="b";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="c";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="A";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="E";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="true";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="false";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="0";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="1";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="2";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
-$malettre  ="bonjour";
-isVoyelle($malettre);
-echo "\n";
-echo "\n";
+echo " \n";
+echo "Test isVoyelle\n";
+echo " \n";
+$malettre = 'a';
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 'b';
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 'c';
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 'A';
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 'E';
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = true;
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = false;
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 0;
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 1;
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 2;
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+$malettre = 'bonjour';
+echo "Lettre: " . $malettre . "=" . isVoyelle($malettre) . "\n";
+
+echo " \n";
